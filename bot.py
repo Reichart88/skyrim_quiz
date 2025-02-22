@@ -13,7 +13,7 @@ nest_asyncio.apply()
 
 logging.basicConfig(level=logging.INFO)
 DB_NAME = 'skyrim_quiz.db'
-API_TOKEN = '6784969389:AAEEZ0zQO9Xfo_ba-hPNPeEu0VvCvB1HaVs'
+API_TOKEN = 'YOUR_TG_API_TOKEN'
 
 bot = Bot(API_TOKEN,
           default=DefaultBotProperties(
